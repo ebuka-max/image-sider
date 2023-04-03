@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Image Slider Toggle Button | CodingBukason</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="image-container">
+            <img src="./images/image-1.jpeg" alt="">
+            <img src="./images/image-2.jpeg" alt="">
+            <img src="./images/image-3.jpeg" alt="">
+            <img src="./images/image-4.jpeg" alt="">
+            <img src="./images/image-5.jpeg" alt="">
+        </div>
+
+        <div onclick="side_slide(1)" class="slide left">
+         <span class="fa fa-chevron-circle-left"></span>
+        </div>
+
+        <div onclick="side_slide(1)" class="slide right">
+         <span class="fa fa-chevron-circle-right"></span>
+        </div>
+
+        <div class="btn-slider">
+            <span onclick="btn_slide(1)"></span>
+            <span onclick="btn_slide(2)"></span>
+            <span onclick="btn_slide(3)"></span>
+            <span onclick="btn_slide(4)"></span>
+            <span onclick="btn_slide(5)"></span>
+          
+        </div>
+    </div>
+
+  
+
+
+   
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
